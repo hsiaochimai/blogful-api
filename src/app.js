@@ -13,7 +13,7 @@ app.use(morgan(morganOption));
 app.use(cors());
 app.use(helmet());
 
-app.use('/articles', articlesRouter)
+app.use('/api/articles', articlesRouter)
 
 
 app.get("/", (req, res) => {
